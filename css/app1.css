@@ -1,0 +1,119 @@
+ 
+ /* Description */
+
+ #onenote-nvFonctions li{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 12px;
+ }
+ 
+ /* Logo */
+
+ .slogan{
+    padding-top: 20px;
+ }
+
+ #logo-onenote img{
+     margin-left: 12%;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+
+ /* Textes */
+
+h6{
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+    
+ .intro-onenote, .description-onenote, .usages-intro, .usages-apps, .usages-apps2, .notes-illustration, .links-tx, h6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    padding-top: 40px;
+ }
+
+ .rangement{
+     margin-left: 15%;
+ }
+
+ .usages{
+     margin-top: 20px;
+ }
+ 
+ .usages-apps{
+     margin-top: 2.5%;
+ }
+
+ .rangement, .partage{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+
+ .rangement-tx, .partage-tx{
+     max-width: 40%;
+     margin-right: 15%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     padding-top: 5%;
+ }
+
+ .partage{
+     margin-left: 15%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+ }
+
+ .screenshot1-2-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-right: 5%;
+ }
+
+ .screenshot5-6-7{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+
+ /* Partie sur les links */
+
+.links-onenote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid darkblue;
+    border-radius: 30px;
+    max-height: 30%;
+    
+}
+
+.links-onenote a{
+    text-decoration: none;
+}
+
+.links-microsoft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

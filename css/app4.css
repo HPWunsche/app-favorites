@@ -1,0 +1,173 @@
+
+/* Bloc central */
+
+.arte-app{
+    margin-top: 60px;
+}
+
+.arte{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(236, 38, 3);
+    text-align: center;
+}
+
+h3, h4, h5, h6{
+    color: rgb(235, 53, 21);
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+/* Styles communs de toutes les parties */
+
+.intro-arte-app, .arte-description, .programmes-intro, .thema-tx, .links-arte-tx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+}
+
+/* Logo, slogan, screenshot */
+
+#logo-arte{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#arte-website a img{
+    width: 65%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 18%;
+}
+
+/* Introduction sur les programmes */
+
+ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-indent: 20px;
+    line-height: 0.5cm;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+/* Thema */
+
+/* Thema : exemples */
+
+.thema-exemples{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    margin-left: 15%;
+    padding-top: 5%;
+}
+
+/* Séries */
+
+.series{
+    padding-top: 5%;
+}
+
+.series-center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2.5%;
+}
+
+.series-tx{
+    text-align: center;
+    width: 400px;
+    padding-left: 10%;
+}
+
+#series-img3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+#series-img1 img, #series-img2 img, #series-img3 img{
+    width: 250px;
+}
+
+#series-img2{
+    padding-right: 10%;
+}
+
+
+/* Links */
+
+.links-arte, .arte-web-links{
+    margin-top: 2.5%;
+}
+
+.arte-web-links a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(243, 47, 12);
+    margin-top: 10px;
+}
+
+.arte-web-links a:hover{
+    color: mediumseagreen;
+}
+
+.arte-web-links a img{
+    height: 35px;
+    
+}
+
+.arte-web-links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5%;
+}
+
+#arte-boutique a img, #Arte-YouTube a img{
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+/* Social bar */
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
